@@ -25,6 +25,9 @@ img#imagem{
     margin-left: auto;
     margin-right: auto;
     outline-style: none;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-left: 23px;
 }
 
 #pesquisa:hover{
