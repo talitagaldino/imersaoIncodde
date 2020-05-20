@@ -4,11 +4,35 @@ html, body {
     font-family: Arial, Helvetica, sans-serif
 }
 
+nav{
+    display: block;
+    background-color: transparent;
+    padding: 25px;
+    text-align: right;  
+    margin-right: 50px; 
+}
+
+#iconeApp{
+    width: 25px;
+}
+
+.links{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.links:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 img#imagem{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 80px;
 }
 
 #caixaDePesquisa{
@@ -51,16 +75,22 @@ img#imagem{
     
 }
 
+.botoes:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 1px rgba(138, 138, 138, 0.747);
+
+}
+
 #posicaoBotoes{
     display: block;
     padding: 40px;
     margin-left: 460px;
 }
 
-#rodape{
+footer{
     max-width: 100%;
-    margin-top: 8%;
-    padding: 10px 10px;
+    margin-top: 5%;
+    padding: 5px 10px;
     background-color: rgb(240, 240, 240);
     color: #4D4D4F;
     font-size: 15px;
