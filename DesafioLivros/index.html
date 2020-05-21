@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">    
+    <title>CRUD livros</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Livros</h1>
+    </header>
+
+    <main>
+        <div>
+            <form id="criaUsuario">
+                <h1> Novo usuário </h1>
+
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email">
+                </div>
+                <input class='botao' type="submit" value="Criar usuário" id="criaUsuario">
+            </form>
+        </div>
+
+        <div id="listaUsuarios">
+            <h1> Usuários cadastrados: </h1>
+            <ul></ul>
+        </div>
+
+        <div>
+            <form id="criaLivro">
+                <h1> Novo livro </h1>
+
+                <div>
+                    <label for="Livro">Livro: </label>
+                    <input type="text" id="nomeLivro">
+                </div>
+                <div>
+                    <label for="autor">Autor: </label>
+                    <input type="text" id="autor">
+                </div>
+                <input class='botao' type="submit" value="Criar Livro">
+            </form>
+        </div>
+
+        <div>
+            <h1> Livros cadastrados: </h1>
+            <ul>
+
+            </ul>
+        </div>
+   
+    </main>
+
+    <footer>
+        <span>Sistemas de livros feito por Talita Galdino</span>
+    </footer>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
